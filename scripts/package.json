@@ -1,0 +1,14 @@
+{
+  "name": "azmaot-project",
+  "version": "1.0.0",
+  "description": "composing image from user input",
+  "main": "compose.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hanan Peretz",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.2.28"
+  }
+}

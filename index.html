@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <title>משתלטים על טקס הדלקת המשואות</title>
+  <link rel="stylesheet" href="css/myStyles.css">
+  <script src="scripts/require.js"></script>
+  <script src="scripts/compose.js"></script>
+  <!--- <script src="js/require.js"></script> !-->
+</head>
+
+
+<body>
+  <h1>משתלטים על טקס הדלקת המשואות </h1>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <textarea type="text" id="ta" name="ta" class="form-control" placeholder="הכנס טקסט..." onkeyup="cleanTA('ta')" onkeydown="cleanTA('ta')"></textarea>
+      <span class="input-group-btn">
+        <button class="btn btn-default" id="submit-btn" type="button" onclick="imGenerator('ta')" >Go!</button>
+      </span>
+    </div><!-- /input-group -->
+     תווים: <span id="wordCound1"> 0 </span> 
+  </div><!-- /.col-lg-6 -->
+
+   
+
+    <div id="status"></div>
+
+    <form class="img-area">
+      <p>
+        <div class="img-out", id="resIm", name="resIm">
+        </div>
+      </p>
+    </form>
+    
+</body>
+
+</html>
